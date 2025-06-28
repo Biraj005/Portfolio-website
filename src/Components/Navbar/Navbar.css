@@ -1,0 +1,60 @@
+.navbar {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 8vh;
+  padding: 0 30px;
+  background-color: #111; 
+}
+
+.logo {
+  height: 40px;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 40px;
+}
+.navbar img{
+    margin-left: 20px;
+}
+
+.nav-list li {
+  list-style: none;
+  color: white;
+  cursor: pointer;
+  font-weight: 500;
+  transition: color 0.5s;
+  font-size: large;
+  font-weight: 400;
+}
+
+.nav-list li:hover {
+   transform: scale(1.08); 
+  color: #e17749;
+}
+.contact {
+  margin-right: 20px;
+  height: 45px;
+  width: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 25px;
+  cursor: pointer;
+  background: linear-gradient(45deg, #ed2787, #feb47b);
+  color: white;
+  font-weight: bold;
+  transition: transform 0.3s, box-shadow 0.3s, border 0.3s;
+  position: relative;
+  z-index: 0;
+}
+
+.contact:hover {
+  transform: scale(1.05);
+  z-index: 1;
+}

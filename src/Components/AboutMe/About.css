@@ -1,0 +1,39 @@
+.about-section {
+  margin-top: 5vh;
+  width: 100%;
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.container h2{
+    font-size: 40px;
+    margin: 5px 0px 20px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-content {
+  max-width: 600px;
+  text-align: center;
+}
+
+.about-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+
+.about-text p {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+

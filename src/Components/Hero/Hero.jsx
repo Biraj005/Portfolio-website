@@ -4,7 +4,7 @@ function Hero() {
     <div className="wraper">
     <div className='hero-container'>
          <div className='Text-contain'>
-            <span className='name'>I'm Biraj Roy</span>
+            <span className='name'>I'm Biraj Roy,</span>
             <h2>Webdeveloper based in India</h2>
             <span className='hero-about'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ex blanditiis necessitatibus porro itaque reiciendis hic sapiente, minima eaque ipsam maiores laborum unde iste molestias animi esse distinctio nostrum tempore.</span>
         </div>

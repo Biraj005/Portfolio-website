@@ -4,17 +4,14 @@
     margin-top: 10px;
     margin-left: 40px;
     display: flex;
-    /* align-items: center; */
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
-    /* justify-content: center; */
 }
 .hero-container img{
     margin-top: 30px;
     height: 30vh;
     border-radius: 50%;
-    /* border: 0.5px solid wheat; */
     width: 30vh;
 }
 .Text-contain{
@@ -28,9 +25,9 @@
     text-align: left;
     font-size: 50px;
     font-weight: 800;
-    background: linear-gradient(45deg, #ed2787, #feb47b);
+    background: linear-gradient(267deg, #DA7C25 .36%, #B923E1 102.06%);
     -webkit-background-clip: text;
-   color: transparent;
+    color: transparent;
 }
 .Text-contain h2{
     text-align: left;
@@ -50,7 +47,6 @@
     justify-content: space-between;
     height: 15vh;
     width: 60vh;
-    /* background-color: red; */
     margin-bottom: 60px
 }
 .Hero-links button{
@@ -62,9 +58,10 @@
     font-size: 1.1rem;
     font-weight: 500;
     transition: 0.5s;
+    cursor: pointer;
 }
 .connect-with-me{
- background: linear-gradient(45deg, #ed2787, #feb47b);
+ background: linear-gradient(267deg, #DA7C25 .36%, #B923E1 102.06%);
 }
 .my-resume{
     background-color: #161513;

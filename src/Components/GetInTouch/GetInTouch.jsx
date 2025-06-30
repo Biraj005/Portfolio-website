@@ -17,9 +17,16 @@ function GetInTouch() {
             </div>
             <div className='form'>
                 <form action="">
-                    <input type="text" placeholder='Enter your name' />
-                    <input type="email"  placeholder='Enter your email'/>
-                    <textarea name="message" placeholder='Enter you mesaage'></textarea>
+                    <label htmlFor="Name">You Name</label>
+                    <input id="Name" type="text" className='input-field' placeholder='Enter your name' />
+                     <br />
+                     <label htmlFor="email">Your Email</label>
+                    <input id="email" type="email" className='input-field'  placeholder='Enter your email'/>
+                    <br />
+                    <label htmlFor="message">Feedback</label>
+                    <textarea  id="message" className='input-field text-area' name="message" placeholder='Enter you mesaage'></textarea>
+                    <br />
+                    <button className="submit-btn">Submit</button>
                 </form>
             </div>
         </div>

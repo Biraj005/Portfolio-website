@@ -9,9 +9,11 @@ function Projects() {
         <div className="project-conatainer">
             <p className="my-project"> My Projects</p>
             <div className="item-list">
-                  {projectsArray.map(item => {
+                  {projectsArray.map((item,idx) => {
                   return <ProjectCard
-                 item={item}/>
+                  key={idx}
+                 item={item}
+                 />
                  
             })}
             <br />             

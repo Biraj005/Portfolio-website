@@ -5,6 +5,7 @@ import AboutMe from './Components/AboutMe/AboutMe'
 import Projects from './Components/Projects/Projects'
 import { ProjectsContext } from './store/ProjectContext'
 import GetInTouch from './Components/GetInTouch/GetInTouch'
+import Footer from './Components/Footer/Footer'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <AboutMe />
       <Projects />
       <GetInTouch/>
+      <Footer/>
     </ProjectsContext.Provider>
   )
 }

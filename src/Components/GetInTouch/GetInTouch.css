@@ -48,6 +48,10 @@
 .contact-details{
     margin-top: 20px;
 }
+.contact-details-list img{
+    height: 20px;
+    margin: 5px 5px 5px;
+}
 .contact-details-list{
     margin: 0px 0px 10px;
 }

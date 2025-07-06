@@ -6,10 +6,12 @@ import Projects from './Components/Projects/Projects'
 import { ProjectsContext } from './store/ProjectContext'
 import GetInTouch from './Components/GetInTouch/GetInTouch'
 import Footer from './Components/Footer/Footer'
+import projects from './store/projectData'
 
 function App() {
+
   return (
-    <ProjectsContext.Provider value={['project one','project two','project three']}>
+    <ProjectsContext.Provider value={projects}>
       <Navbar />
       <Hero />
       <AboutMe />

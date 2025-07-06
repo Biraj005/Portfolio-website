@@ -58,3 +58,10 @@
   transform: scale(1.05);
   z-index: 1;
 }
+@media(max-width:915px) {
+
+  .contact{
+    display: none;
+  }
+  
+}

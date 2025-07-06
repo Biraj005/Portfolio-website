@@ -2,24 +2,24 @@ import { useContext } from "react"
 import { ProjectsContext } from "../../store/ProjectContext"
 import ProjectCard from "./ProjectCard";
 import './projects.css'
-function Projects() {
-    const projectsArray = useContext(ProjectsContext);
 
-    return (     
+function Projects() {
+
+    const projectsArray = useContext(ProjectsContext);
+    return (
         <div className="project-conatainer">
             <p className="my-project"> My Projects</p>
             <div className="item-list">
-                  {projectsArray.map((item,idx) => {
-                  return <ProjectCard
-                  key={idx}
-                 item={item}
-                 />
-                 
-            })}
-            <br />             
-             <div className="show-more">
-                  <button>Show More</button>
-             </div>
+                {projectsArray.map((item, idx) => {
+                    return <ProjectCard
+                        key={idx}
+                        item={item}
+                    />
+                })}
+                <br />
+                <div className="show-more">
+                    <button>Show More</button>
+                </div>
             </div>
         </div>
     )

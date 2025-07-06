@@ -8,7 +8,7 @@ function Navbar() {
             <ul className="nav-list">
                   <AnchorLink className='anchor-link' offset={50} href='#home'><li>Home</li></AnchorLink>
                   <AnchorLink className='anchor-link' offset={50} href='#about'> <li>About</li></AnchorLink>
-                  <AnchorLink className='anchor-link' offset={50} href='#project'><li>Portfolio</li></AnchorLink> 
+                  <AnchorLink className='anchor-link' offset={50} href='#project'><li>Projects</li></AnchorLink> 
                   <AnchorLink className='anchor-link' offset={50} href='#contact'> <li>Contact</li></AnchorLink>
             </ul>
             <div className="contact">
